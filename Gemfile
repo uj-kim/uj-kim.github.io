@@ -2,8 +2,6 @@ source "https://rubygems.org"
 
 gem "jekyll", "~> 4.3.4"
 
-# 기존 테마 젬 주석 처리 또는 삭제
-# gem "minima", "~> 2.5"
 
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.12"
