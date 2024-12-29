@@ -14,5 +14,7 @@ group :jekyll_plugins do
   gem "jekyll-sitemap"
 end
 
+gem 'wdm', '>= 0.1.0' if Gem.win_platform?
+
 # 성능 향상을 위한 설정 유지
 gem "http_parser.rb", "~> 0.6.0", platforms: [:jruby]
